@@ -11,4 +11,5 @@ A simple express.js server that links html, javascript &amp; css
 > ### Link to files using links above
 ## How to link files: 
 + CSS - `<link rel="stylesheet" href="http://127.0.0.1:3000/css?file=style.css>"`
-+ JS - `<script src="http://127.0.0.1:3000/js?file=script.js"></script>
++ JS - `<script src="http://127.0.0.1:3000/js?file=script.js"></script>`
++ HTML - `document.loaction.href = 'http://127.0.0.1:3000/html?file=page2.html'`
