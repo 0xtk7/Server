@@ -1,5 +1,5 @@
-# server
-A simple express.js server that links html, javascript &amp; css
+# Server
+A simple server using express.js that links html, javascript &amp; css
 
 ## Links
 > + http://127.0.0.1:3000/ - Index page
