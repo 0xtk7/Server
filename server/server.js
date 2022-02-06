@@ -24,7 +24,7 @@ app.get('/html', (req, res) => {
 // http://127.0.0.1:3000/css?file={name}
 app.get('/css', (req, res) => {
     var css = req.query.file;
-    res.end(fs.readFileSync(`./example/${css}`, 'utf8'))
+    res.end(fs.readFileSync(`./example/${css}`, 'utf8'));
 });
 
 // link js
@@ -35,5 +35,5 @@ app.get('/js', (req, res) => {
 });
 
 app.listen(page["port"], () => {
-    console.log(`Running on: http://${page["host"]}:${page["port"]}`)
-})
+    console.log(`Running on: http://${page["host"]}:${page["port"]}`);
+});
